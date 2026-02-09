@@ -97,7 +97,7 @@ This experiment compares four different data configurations for training the sen
 
 ### Results
 
-See detailed performance metrics and comparison in [Results Comparison](Results%20Compairison.md).
+See detailed performance metrics and comparison in [Results Comparison](Results%20Comparison.md).
 
 ### Key Findings
 
