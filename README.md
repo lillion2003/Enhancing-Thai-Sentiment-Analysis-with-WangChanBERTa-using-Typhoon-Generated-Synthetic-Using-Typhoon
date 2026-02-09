@@ -39,7 +39,7 @@ The experiments utilize state-of-the-art LLMs (Llama-3.1 and Typhoon 2) for data
 The data comes from the Wongnai Restaurant Review Dataset ( HuggingFace).
 The dataset contains review text and star ratings from 19,958 restaurant reviews.
 
-### Methods (Principles and Analysis Methods)
+### Methods
 
 This project uses the following methods:
 
