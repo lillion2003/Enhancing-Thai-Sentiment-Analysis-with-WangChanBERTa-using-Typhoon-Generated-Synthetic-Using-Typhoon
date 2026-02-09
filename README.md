@@ -2,7 +2,7 @@
 
 **Author**: Github: lillion2003
 
-This content presents the process of synthesizing data using LLM (Llama-3.1 and Typhoon 2) and compares different data synthesis approaches to determine which method most effectively improves sentiment classification performance when fine-tuning the WangChanBERTa model.
+This content presents the process of synthesizing data using LLM (Llama 3.1-Typhoon 2) and compares different data synthesis approaches to determine which method most effectively improves sentiment classification performance when fine-tuning the WangChanBERTa model.
 
 ## Table of Contents
 
@@ -47,10 +47,10 @@ This project uses the following methods:
 
 Removes 3-star reviews (neutral sentiment) and keeps only clear positive (4-5 stars) and negative (1-2 stars) reviews.
 
-**Synthesis Models:** Llama-3.1 and Typhoon 2 are used for generating synthetic reviews. These models were selected because:
+**Synthesis Models:** Llama-3.1-Typhoon 2 are used for generating synthetic reviews. These models were selected because:
 
-- Modern LLMs demonstrate exceptional text generation capabilities, producing coherent and contextually appropriate content
-- Typhoon 2 is specifically optimized for Thai language tasks, making it particularly suitable for generating high-quality Thai restaurant reviews
+- Modern LLM demonstrate exceptional text generation capabilities, producing coherent and contextually appropriate content
+- Typhoon 2 is specifically optimized for Thai language tasks, making it particularly suitable for generating Thai restaurant reviews
 
 **Rewriting Method:** The model receives a prompt containing an example review and generates a new version by rewriting the original text while preserving the same sentiment. Based on prior research, this method synthesizes data at a 4x ratio (4 times the original data size).
 
