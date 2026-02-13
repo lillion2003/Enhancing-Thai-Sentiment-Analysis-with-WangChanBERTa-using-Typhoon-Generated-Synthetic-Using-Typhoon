@@ -32,7 +32,7 @@ This research aims to investigate the effectiveness of synthetic data augmentati
 1. Determine the optimal synthesis ratio for the Prompt-based method (ranging from 1x to 4x the original data size)
 2. Compare the performance of different synthesis approaches (Rewriting, Prompt, and Mixed methods) to identify which strategy yields the best classification results when fine-tuning WangChanBERTa
 
-The experiments utilize state-of-the-art LLMs (Llama-3.1 and Typhoon 2) for data synthesis due to their strong text generation capabilities, while leveraging WangChanBERTa as the classification model given its proven effectiveness in Thai language processing tasks.
+The experiments utilize state-of-the-art LLMs (Llama 3.1-Typhoon 2) for data synthesis due to their strong text generation capabilities, while leveraging WangChanBERTa as the classification model given its proven effectiveness in Thai language processing tasks.
 
 ### Data
 
@@ -47,7 +47,7 @@ This project uses the following methods:
 
 Removes 3-star reviews (neutral sentiment) and keeps only clear positive (4-5 stars) and negative (1-2 stars) reviews.
 
-**Synthesis Models:** Llama-3.1-Typhoon 2 are used for generating synthetic reviews. These models were selected because:
+**Synthesis Models:** Llama 3.1-Typhoon 2 are used for generating synthetic reviews. These models were selected because:
 
 - Modern LLM demonstrate exceptional text generation capabilities, producing coherent and contextually appropriate content
 - Typhoon 2 is specifically optimized for Thai language tasks, making it particularly suitable for generating Thai restaurant reviews
